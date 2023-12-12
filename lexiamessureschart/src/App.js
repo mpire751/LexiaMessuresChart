@@ -21,7 +21,14 @@ function App() {
         </a>
       </header>
       <Home />
-      <LineChart />
+      <LineChart
+        name="regimeMoteur"
+        datasArray={[800.0, 800.0, 800.0, 760.0, 760.0, 720.0, 760.0]}
+      />
+      <LineChart
+        name="coupleMoteur"
+        datasArray={[25.5, 25.5, 25.5, 25.5, 26.25, 26.25, 29.25]}
+      />
     </div>
   );
 }
