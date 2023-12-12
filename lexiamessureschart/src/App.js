@@ -24,10 +24,12 @@ function App() {
       <LineChart
         name="regimeMoteur"
         datasArray={[800.0, 800.0, 800.0, 760.0, 760.0, 720.0, 760.0]}
+        label={[0, 1336, 2132, 2896, 3671, 4451, 5257]}
       />
       <LineChart
         name="coupleMoteur"
         datasArray={[25.5, 25.5, 25.5, 25.5, 26.25, 26.25, 29.25]}
+        label={[0, 1336, 2132, 2896, 3671, 4451, 5257]}
       />
     </div>
   );

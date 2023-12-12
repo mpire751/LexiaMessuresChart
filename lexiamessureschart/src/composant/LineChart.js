@@ -7,14 +7,14 @@ Chart.register(...registerables);
 class LineChart extends Component {
   render() {
     console.log(this.props);
-    let labelMs = [0, 1336, 2132, 2896, 3671, 4451, 5257];
+    let label = this.props.label;
     let nameDatas = this.props.name;
     let datas = this.props.datasArray;
 
     console.log("datas = " + datas);
 
     const stateData = {
-      labels: labelMs,
+      labels: label,
       datasets: [
         {
           label: nameDatas,
